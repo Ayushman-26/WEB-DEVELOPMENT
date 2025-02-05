@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        body {
+            font-family: "Playwrite DE Grund", cursive;
+            background-color: aqua;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 37px auto;
+            background-color: cornsilk;
+        }
+
+        .item {
+            border: 3px solid pink;
+            margin: 12px 3px;
+            padding: 12px 7px;
+            background-color: antiquewhite;
+        }
+
+        #fruit {
+            float: right;
+            width: 50%;
+        }
+
+        #computer {
+            float: left;
+            width: 50%;
+        }
+
+        #stationary {
+            /* float: left; */
+            width: 100%;
+            clear: both;
+        }
+
+        p,
+        h3 {
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            color: peru;
+            border: 3px solid peru;
+            margin: 37px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Welcome To My Store
+    </h1>
+    <div class="container">
+        <div id="fruit" class="item">
+            <h3>Fruit</h3>
+            <p id="fruitpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore
+                voluptatibus corporis, officiis, error mollitia numquam amet, quia et reiciendis sed sunt hic molestias
+                fugit illo adipisci veniam reprehenderit? Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dolore, quod iusto! Possimus doloremque recusandae esse quae, inventore nobis, accusantium,
+                exercitationem vero nostrum nulla architecto blanditiis id fugit at eum harum facilis beatae praesentium
+                saepe.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore
+                voluptatibus corporis, officiis, error mollitia numquam amet, quia et reiciendis sed sunt hic molestias
+                fugit illo adipisci veniam reprehenderit? Vero. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nihil omnis adipisci saepe ab recusandae tempora, ex atque praesentium autem, dolores dolorem minus
+                voluptates voluptate facere officiis hic at vel qui. Maxime eius saepe praesentium.</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore
+                voluptatibus corporis, officiis, error mollitia numquam amet, quia et reiciendis sed sunt hic molestias
+                fugit illo adipisci veniam reprehenderit? Vero.</p>
+        </div>
+    </div>
+</body>
+
+</html>
